@@ -1,2 +1,10 @@
-# Data-Analytics-Daily-Projects
-A collection of my daily Data Analytics projects, practical exercises, and hands-on learning using Excel.
+### 📖 How My 15 Days Went (My Learning Notes)
+
+**The Basics & Simple Math (Day 1 – Day 5)**
+I started Day 1 by just typing out a basic student marksheet in Excel to get comfortable with the interface. On Day 2, I started using actual formulas—figuring out how `SUM`, `AVERAGE`, and percentages work so I didn't have to calculate marks by hand. On Day 3, I learned that pressing `Ctrl + T` instantly turns a normal range into a proper Excel table, which makes it look much cleaner. After that, I wanted to see who actually cleared the exams, so on Days 4 and 5, I played around with pass/fail logic and used `COUNT`, `COUNTA`, and `COUNTIF` to check how many students and subjects had recorded data.
+
+**Dates, Cleaning Dirty Names & Text (Day 6 – Day 12)**
+On Day 6, I experimented with date/time formulas (`TODAY`, `NOW`) and used `RANDBETWEEN` to generate dummy numbers. On Day 7, I used Conditional Formatting so high and low scores would pop out in different colors. From Day 8 onwards, the text was a bit messy, so I spent a few days practicing text functions. I used `LEN`, `PROPER`, and `UPPER` to fix weirdly capitalized names, and then used `TRIM` and `SUBSTITUTE` (Days 9 & 10) to remove accidental spaces, `@` symbols, and replace wrong letters. On Days 11 and 12, I figured out how to merge first and last names using `CONCAT` and `TEXTJOIN`, and then tried splitting them back up using `LEFT`, `RIGHT`, and `FIND`.
+
+**Dashboards & First Time Trying SQL (Day 13 – Day 15)**
+By Day 13, I moved beyond standard tables and built my first Pivot Table with charts and Slicers—being able to filter data just by clicking buttons was really cool. On Day 14, I brought all those charts and metrics together onto one sheet to create a simple student performance dashboard. On the final day (Day 15), I stepped outside Excel to try basic SQL. I created a database, made a students table, added some rows with `INSERT`, and viewed the results using `SELECT` queries to see how databases handle data compared to spreadsheets.
